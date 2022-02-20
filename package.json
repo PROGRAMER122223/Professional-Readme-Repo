@@ -1,0 +1,23 @@
+{
+  "name": "Professional-Readme-Repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PROGRAMER122223/Professional-Readme-Repo.git"
+  },
+  "keywords": [],
+  "author": "Brad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PROGRAMER122223/Professional-Readme-Repo/issues"
+  },
+  "homepage": "https://github.com/PROGRAMER122223/Professional-Readme-Repo#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
