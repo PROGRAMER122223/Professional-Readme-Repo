@@ -136,36 +136,41 @@ function generateReadme(answer) {
   [![license](https://img.shields.io/badge/license-${answer.License}-blue)](https://shields.io)
 
   #### Table of Contents
-   1.[Project-description](#Description)
+   1.[Project-description](#project-description)
 
-   2.[Project-installation](#Installation)
+   2.[Project-installation](#project-installation)
 
-   3.[Usage](#Usage)
+   3.[project-Usage](#project-Usage)
 
-   4.[License-used](#License)
+   4.[License-used](#license-used)
 
-   5.[Project-contributors](#Contributors)
+   5.[Project-contributors](#project-contributors)
 
-   6.[Project-test](#Test)
+   6.[Project-test](#project-test)
 
    7.[Questions](#questions)
-
+  
    ## Project-description
    * ${answer.Description}
 
-  
+   
    ## Project-installation
    * ${answer.Installation}
    
-   ## Usage
+   
+   ## project-Usage
    * ${answer.Usage}
    
-   ## License
+  
+   ## License-used
    * ${answer.License}
-   
+
+    
    ## Project-contributors
    * ${answer.Contributors}
 
+
+  
    ## Project-test
    *  ${answer.Test}
 
@@ -177,6 +182,7 @@ function generateReadme(answer) {
 // function to initialize app and write file
 function init() {
   promptUser()
+
     .then(function (answers) {
       const readme = generateReadme(answers);
       return fs.writeFileSync("README.md", readme);
