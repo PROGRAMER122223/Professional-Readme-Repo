@@ -3,35 +3,35 @@ const inquirer = require("inquirer");//provides functionality to prompt question
 const fs = require("fs");//interacting with the file system
 
 function promptUser() {
-//provides functionality to prompt function
- //project title 
-return inquirer.prompt([
+  //provides functionality to prompt function
+  //project title 
+  return inquirer.prompt([
     {
       type: "input",
       name: "ProjectTitle",
       message: "what is the Project title?",
       validate: titleInput => {
         if (titleInput) {
-            return true;
+          return true;
         } else {
-            console.log('You need to enter a title to continue!');
-            return false;
+          console.log('You need to enter a title to continue!');
+          return false;
         }
-    }
+      }
     },
-  // project description  
+    // project description  
     {
       type: "input",
       name: "Description",
       message: "Write brief description of  the Project:",
       validate: descriptionInput => {
-       if (descriptionInput) {
-           return true;
+        if (descriptionInput) {
+          return true;
         } else {
-             console.log('You need to enter a  project description!');
-             return false;
+          console.log('You need to enter a  project description!');
+          return false;
         }
-    }
+      }
     },
     // project installation
     {
@@ -40,28 +40,28 @@ return inquirer.prompt([
       message: "Write about installation if any: ",
       validate: installationInput => {
         if (installationInput) {
-            return true;
-         } else {
-              console.log('please enter about installation process!');
-              return false;
-         }
-     }
-     },
-     // project usage
+          return true;
+        } else {
+          console.log('please enter about installation process!');
+          return false;
+        }
+      }
+    },
+    // project usage
     {
       type: "input",
       name: "Usage",
       message: "what is this project usage for?",
       validate: usageInput => {
         if (usageInput) {
-            return true;
-         } else {
-              console.log('You need to enter about usage of project!');
-              return false;
-         }
-     }
-     },
-     // License 
+          return true;
+        } else {
+          console.log('You need to enter about usage of project!');
+          return false;
+        }
+      }
+    },
+    // License 
     {
       type: "list",
       name: "License",
@@ -74,23 +74,23 @@ return inquirer.prompt([
         "MIT",
         "Mozilla",
         "Open"
-      ]      
-     },
-     //project contributors
+      ]
+    },
+    //project contributors
     {
       type: "input",
       name: "Contributors",
       message: "who are the contributers of this project?",
       validate: contInput => {
         if (contInput) {
-            return true;
-         } else {
-              console.log('You need to enter about  project contributors!');
-              return false;
-         }
-     }
-      },
-      //Test
+          return true;
+        } else {
+          console.log('You need to enter about  project contributors!');
+          return false;
+        }
+      }
+    },
+    //Test
     {
       type: "input",
       name: "Test",
@@ -103,12 +103,12 @@ return inquirer.prompt([
       message: "please enter the github username: ",
       validate: usernameInput => {
         if (usernameInput) {
-            return true;
-         } else {
-              console.log('You need to enter a  github username!');
-              return false;
-         }
-     }
+          return true;
+        } else {
+          console.log('You need to enter a  github username!');
+          return false;
+        }
+      }
     },
     //E-mail
     {
@@ -117,12 +117,12 @@ return inquirer.prompt([
       message: "please enter your email: ",
       validate: emailInput => {
         if (emailInput) {
-            return true;
-         } else {
-              console.log('please enter your e-mail');
-              return false;
-         }
-     }
+          return true;
+        } else {
+          console.log('please enter your e-mail');
+          return false;
+        }
+      }
 
     }
 
