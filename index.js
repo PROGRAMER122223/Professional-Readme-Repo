@@ -21,7 +21,7 @@ function promptUser() {
     },
     // project description  
     {
-      type: "input",
+      type: "editor",//allows users to use their default text editor for larger text inputs
       name: "Description",
       message: "Write brief description of  the Project:",
       validate: descriptionInput => {
