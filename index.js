@@ -136,7 +136,7 @@ function generateReadme(answer) {
   [![license](https://img.shields.io/badge/license-${answer.License}-blue)](https://shields.io)
 
   #### Table of Contents
-   1.[Projrct-description](#Description)
+   1.[Project-description](#Description)
 
    2.[Project-installation](#Installation)
 
