@@ -34,16 +34,10 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Getting Started
-Here are some guidelines to help you get started:
+## Mock-Up
+![screenshot of readme-generator](./final_62195ea1dfc22b00ca3f1fa4_977901%20(1)_Moment.jpg)
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `<pkg> when you first set up the project, before installing any dependencies.
-
-* link to  video of the typical user flow through application. This includes views of the prompts and the responses after the selection.
-
-![screenshot](./Professional-Readme-Repo/src/final_62195ea1dfc22b00ca3f1fa4_977901 (1)_Moment.jpg)
+[screenshot video](./final_62195ea1dfc22b00ca3f1fa4_977901.mp4)
 
 # URL
-[GITHUB]([URL of github repository](https://github.com/PROGRAMER122223/Weather-Dashboard-repo.git))
+[GITHUB URL of github repository](https://github.com/PROGRAMER122223/Weather-Dashboard-repo.git)
