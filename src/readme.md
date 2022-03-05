@@ -40,8 +40,7 @@ The README generator requires installation of Node.js. Users must also have acce
 Run the following command at the root of your project and answer the prompted questions:node index.js
 
 ## Mock-Up
-![screenshot of readme-generator](./final_62195ea1dfc22b00ca3f1fa4_977901%20(1)_Moment.jpg)
-
+![screenshot of readme-generator](/src/Screenshot%202022-03-04%20200413.png)
 ## Walk-through the video
 https://watch.screencastify.com/v/OGGSVBXqi3wSvhioy3UW
 
