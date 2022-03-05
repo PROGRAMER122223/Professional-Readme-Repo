@@ -1,4 +1,4 @@
-# README.MD
+# Readme.md
   
   ## License 
   [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
@@ -21,9 +21,10 @@
    ## Project-description
    * README markdown files. A node.js application that uses user input from inquirer to populate a README.md file for the user repository. By using this app, you can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.it is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package].
 
+
    
    ## Project-installation
-   * The README generator requires installation of Node.js. Users must also have access to an IDE such as Visual Studio Code         with access to the terminal or access to GitBash/Command Line Interface to run Node. Inquirer npm must also be installed.
+   * The README generator requires installation of Node.js. Users must also have access to an IDE such as Visual Studio Code       with access to the terminal or access to GitBash/Command Line Interface to run Node. Inquirer npm must also be installed.
    
    
    ## project-Usage

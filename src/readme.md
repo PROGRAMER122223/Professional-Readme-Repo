@@ -33,11 +33,17 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+## Installation
+The README generator requires installation of Node.js. Users must also have access to an IDE such as Visual Studio Code with access to the terminal or access to GitBash/Command Line Interface to run Node. Inquirer npm must also be installed.
+
+## Project-usage
+Run the following command at the root of your project and answer the prompted questions:node index.js
 
 ## Mock-Up
 ![screenshot of readme-generator](./final_62195ea1dfc22b00ca3f1fa4_977901%20(1)_Moment.jpg)
 
-[screenshot video](./final_62195ea1dfc22b00ca3f1fa4_977901.mp4)
+## Walk-through the video
+https://watch.screencastify.com/v/OGGSVBXqi3wSvhioy3UW
 
 # URL
-[GITHUB URL of github repository](https://github.com/PROGRAMER122223/Weather-Dashboard-repo.git)
+[GITHUB URL of github repository](https://github.com/PROGRAMER122223/Professional-Readme-Repo)
